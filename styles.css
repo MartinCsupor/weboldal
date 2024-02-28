@@ -1,13 +1,28 @@
+html {
+    background-color: rgb(219, 212, 212);
+}
 
-  
+.fej {
+    position: relative;
+}
+
 .kep {
     position: relative;
     text-align: right;
-    
     width: 100%;
 }
 
 .kepszoveg {
+    position: absolute;
+    height: 200px;
+    left: 70px;
+    top: 135px;
     font-size: 100px;
-    color:  white;
+    color: white;
+}
+
+.aru {
+    width: 100%;
+    height: 100%;
+    background-color: red;
 }

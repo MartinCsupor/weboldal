@@ -3,14 +3,11 @@
 .kep {
     position: relative;
     text-align: right;
-    height: 400px;
+    
     width: 100%;
 }
 
 .kepszoveg {
     font-size: 100px;
-    position: absolute;
-    bottom: 530px;
-    left: 70px;
     color:  white;
 }

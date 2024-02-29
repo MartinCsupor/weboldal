@@ -11,38 +11,40 @@ html {
     width: 100%;
 }
 
-.kepszoveg {
-    position: absolute;
-    height: 200px;
-    left: 70px;
-    top: 135px;
-    font-size: 100px;
-    color: white;
-}
-
 .aru {
     position: relative;
-    top: 50px;
     width: 100%;
     height: 100%;
-    background-color: red;
+    background-color: rgb(219, 212, 212);
 }
 
 .aru1 {
-    justify-content: space-around;
-    align-items:  center;
     display: block;
     margin: auto;
-    width: 40%;
-    text-align: center;
-    background-color: blue;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: auto;
+    max-width: 600px;
+    max-height: 350px;
+    background-color: rgb(245, 240, 240);
+    border-radius: 20px;
 }
 
 .akep {
     position: relative;
     width: 600px;
+    top: 10px;
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 70%;
+    max-height: 300px;
+    border-radius: 15px;
+}
+
+.szoveg {
+    
+    position: relative;
+    font-size: 40px;
+    text-align: center;
 }

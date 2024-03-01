@@ -24,6 +24,7 @@ html {
     margin-top: 10px;
     margin-bottom: 10px;
     max-height: 500px;
+    max-width: 800px;
     background-color: rgb(245, 240, 240);
     border-radius: 20px;
 }
@@ -37,16 +38,21 @@ html {
     margin-right: auto;
     width: 70%;
     max-height: 450px;
+    max-width: 700px;
     border-radius: 15px;
 }
 
 .szoveg {
-    
+    display: block;
+    margin: auto;
     position: relative;
-    font-size: 40px;
     text-align: center;
+    font-size: 40px;
+    max-width: 560px;
+    color: white;
+    background-color: rgb(43, 42, 42);
+    border-radius: 10px;
 }
-
 
 .lablec {
     background-color: grey;
@@ -58,9 +64,34 @@ html {
 
 .aru2 {
     display: block;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    max-height: 500px;
+    margin: auto;
+    max-height: 600px;
     background-color: rgb(245, 240, 240);
-    border-radius: 20px;
+}
+
+.akep2 {
+    position: relative;
+    max-width:500px;
+    top: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    max-height: 450px;
+    max-width: 700px;
+    border-radius: 15px;
+}
+
+.szoveg2 {
+    display: block;
+    margin: auto;
+    position: relative;
+    text-align: center;
+    font-size: 40px;
+    color: white;
+}
+
+.hr1 {
+    border: 3px solid black;
+    border-radius: 5px;
 }

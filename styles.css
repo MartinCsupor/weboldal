@@ -23,8 +23,6 @@ html {
     margin: auto;
     margin-top: 10px;
     margin-bottom: 10px;
-    width: auto;
-    max-width: 600px;
     max-height: 500px;
     background-color: rgb(245, 240, 240);
     border-radius: 20px;
